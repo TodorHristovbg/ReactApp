@@ -10,6 +10,9 @@
 #Installation
 
 git clone https://github.com/TodorHristovbg/ReactApp.git
+
 cd ReactApp
+
 npm install
+
 npm run dev
