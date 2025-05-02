@@ -1,0 +1,104 @@
+body{
+  background-color: whitesmoke;
+}
+
+
+.todocontainer{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.todolists{
+  height: 30em;
+  width: 37em;
+  overflow-y: scroll;  
+
+
+ 
+  box-shadow: 1px 1px 2px 2px grey;
+  border-radius: 20px;
+  margin: 40px;
+  
+}
+.todowrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tasklist{
+  display: flex;
+  justify-content: space-between;
+  align-items :center;
+  text-align: left;
+  margin: 3em;
+  margin-left: 0px;
+}
+
+.tasklist span{
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-align: left;
+}
+.todolists::-webkit-scrollbar {
+  display: none;
+}
+.button{
+  cursor: pointer;
+  color: whitesmoke;
+  border-radius: 1em;
+  margin-left: 50px;
+  padding: 20px;
+  font-size: medium;
+}
+.button.undo{
+ background-color: rgb(233, 142, 43);
+
+}
+.button.complete{
+ background-color: turquoise;
+}
+
+.dropdown{
+
+  text-align: left;
+  width: 9em;
+
+}
+.dropdownmenu{
+  position: absolute;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 2px solid gray;
+  width: 9em;
+  overflow: hidden; 
+  box-sizing: border-box;
+}
+
+.dropdownbutton{
+  width: 100%;
+  text-align: left;       
+  padding: 1em 1em;
+  cursor: pointer;
+  box-sizing: border-box; 
+}
+.dropdownbutton:hover{
+  background-color: darkslategrey;
+}
+.dropdown::-webkit-scrollbar {
+  display: none;
+}
+.extras{
+  display: flex;
+  width: 30em;
+  justify-content: space-around;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
